@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    stages {
+        stage('A')
+        {
+            steps 
+            {
+                sh '''#!/bin/bash
+                echo "success A!"
+                '''
+            }
+        }
+        stage('B')
+        	steps
+        	{
+        	sh '''#!/bin/bash
+                echo "success B!"
+                '''
+        	
+        }
+    }
