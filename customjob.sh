@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Custom job success"
+echo "Custom job went well! heh heh"
